@@ -83,7 +83,7 @@ function update_field() {
     var cells_counter = document.getElementById('cells-counter');
     cells_counter.innerText = "Black/white: "+blacks+'/'+whites;
 
-	if (blacks == width*height || whites = width*height)
+	if (blacks == width*height || whites == width*height)
 	{
 		alert("You won!");
 	}
